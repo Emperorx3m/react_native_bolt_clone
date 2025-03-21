@@ -1,0 +1,14 @@
+{
+  "compilerOptions": {
+    "baseUrl": ".",  // Base directory for module resolution
+    "paths": {
+      "*": ["*"]  // Resolve imports from the root
+    }
+  },
+  "include": [
+    "**/*.js"  // Include all JavaScript files
+  ],
+  "exclude": [
+    "node_modules"  // Exclude node_modules directory
+  ]
+}
